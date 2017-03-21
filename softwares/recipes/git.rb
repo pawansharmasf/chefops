@@ -1,4 +1,4 @@
 execute 'install_git' do
-  command "yum install -y git"
+  command "apt-get install -y git"
   action :run
 end
